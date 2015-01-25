@@ -14,7 +14,7 @@ public class TestRun {
 
     public static void main(String args[]) {
         try {
-            fib = new FIBReader("C:\\Users\\Uday Kandpal\\Desktop\\recommendation.doc");
+            fib = new FIBReader("<some_file_path_name>.doc(x)");
             fib.readNext();
         } catch (IOException ex) {
             Logger.getLogger(TestRun.class.getName()).log(Level.SEVERE, null, ex);
